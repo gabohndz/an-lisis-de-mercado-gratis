@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO esencial -->
+    <title>Análisis de Mercado Gratis en Español | Informe Profesional Automatizado</title>
+    <meta name="description" content="Obtén un análisis de mercado completo y gratuito para tu negocio en español. Informe PDF y HTML interactivo generado por IA. Descubre tu nicho, competencia y proyecciones financieras.">
+    <meta name="keywords" content="análisis de mercado gratis, estudio de mercado, informe de mercado, análisis de negocio, investigación de mercado, español, gratis, IA, emprendedores">
+    <meta name="author" content="Ecusoluciones">
+    <link rel="canonical" href="https://analisisdemercadogratis.com/">
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:title" content="Análisis de Mercado Gratis en Español | Informe Profesional">
+    <meta property="og:description" content="Recibe un análisis completo de tu mercado objetivo, competidores y proyecciones financieras. 100% automatizado y sin costo.">
+    <meta property="og:url" content="https://analisisdemercadogratis.com/">
+    <meta property="og:type" content="website">
+    <!-- Fonts e Iconos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fbfd;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        :root {
+            --color-primario: #1B3A6B;
+            --color-secundario: #2E6DB4;
+            --color-acento: #4A90D9;
+            --color-fondo: #f9fbfd;
+            --color-texto: #1e293b;
+            --color-texto-claro: #64748b;
+            --borde-suave: #e2e8f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--color-primario);
+            color: white;
+            padding: 60px 0 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-acento), var(--color-secundario));
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .subhead {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+
+        .hero-badge {
+            background-color: rgba(255,255,255,0.15);
+            backdrop-filter: blur(4px);
+            padding: 6px 16px;
+            border-radius: 30px;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-weight: 500;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        /* Secciones generales */
+        section {
+            padding: 80px 0;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--color-primario);
+            margin-bottom: 24px;
+            letter-spacing: -0.01em;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+        }
+
+        .beneficios-lista {
+            list-style: none;
+            margin-top: 24px;
+        }
+
+        .beneficios-lista li {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .beneficios-lista i {
+            color: var(--color-secundario);
+            font-size: 1.5rem;
+            min-width: 32px;
+            text-align: center;
+        }
+
+        /* Formulario */
+        .form-card {
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 20px 35px -8px rgba(0,0,0,0.1);
+            border: 1px solid var(--borde-suave);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--color-primario);
+        }
+
+        label .required {
+            color: #c62828;
+            margin-left: 4px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1.5px solid var(--borde-suave);
+            border-radius: 12px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            transition: border 0.15s ease;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--color-secundario);
+            box-shadow: 0 0 0 3px rgba(46,109,180,0.1);
+        }
+
+        .inline-hint {
+            font-size: 0.85rem;
+            color: var(--color-texto-claro);
+            margin-top: 6px;
+        }
+
+        .terms-box {
+            background-color: #f1f5f9;
+            border-radius: 16px;
+            padding: 24px;
+            margin: 30px 0 20px;
+        }
+
+        .terms-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            font-weight: 700;
+            color: var(--color-primario);
+        }
+
+        .terms-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            margin-top: 0;
+            font-size: 0.9rem;
+            color: #334155;
+        }
+
+        .terms-content.show {
+            max-height: 500px;
+            margin-top: 20px;
+            overflow-y: auto;
+            padding-right: 8px;
+        }
+
+        .checkbox-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .checkbox-row input {
+            width: 20px;
+            height: 20px;
+        }
+
+        .btn {
+            background-color: var(--color-secundario);
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+            width: 100%;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .btn:hover {
+            background-color: var(--color-primario);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .message-success {
+            background-color: #e6f7e6;
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 24px;
+            display: none;
+        }
+
+        /* Donaciones y footer */
+        .donation-section {
+            background-color: white;
+            border-radius: 24px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+            margin-bottom: 40px;
+        }
+
+        .donation-address {
+            background: #f1f5f9;
+            padding: 16px;
+            border-radius: 16px;
+            font-family: monospace;
+            word-break: break-all;
+            margin: 24px 0;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin: 30px 0;
+        }
+
+        .social-links a {
+            color: var(--color-primario);
+            font-size: 28px;
+            transition: color 0.2s, transform 0.2s;
+        }
+
+        .social-links a:hover {
+            color: var(--color-secundario);
+            transform: translateY(-3px);
+        }
+
+        footer {
+            border-top: 1px solid var(--borde-suave);
+            padding: 30px 0;
+            color: var(--color-texto-claro);
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            .grid-2 {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            .form-card {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <span class="hero-badge"><i class="fas fa-chart-line" style="margin-right: 8px;"></i>100% Gratuito · Informe Profesional</span>
+        <h1>Análisis de Mercado Gratis<br>en Español</h1>
+        <p class="subhead">Descubre el potencial real de tu negocio. Recibe un informe detallado con estudio de competencia, proyecciones financieras y tendencias del sector, todo generado por inteligencia artificial.</p>
+        <p style="font-size: 1.1rem; opacity: 0.8;"><i class="fas fa-check-circle"></i> Sin costo · Entrega por email · PDF y HTML interactivo</p>
+    </div>
+</header>
+
+<main>
+    <!-- Sección ¿Qué obtienes? + Formulario -->
+    <section>
+        <div class="container grid-2">
+            <div>
+                <h2>¿Qué incluye tu análisis?</h2>
+                <ul class="beneficios-lista">
+                    <li><i class="fas fa-users"></i> <strong>Clientes potenciales:</strong> Perfil demográfico y segmentación.</li>
+                    <li><i class="fas fa-store-alt"></i> <strong>Competidores:</strong> Fortalezas y debilidades de rivales locales.</li>
+                    <li><i class="fas fa-chart-bar"></i> <strong>Proyecciones financieras:</strong> Ingresos estimados, punto de equilibrio.</li>
+                    <li><i class="fas fa-lightbulb"></i> <strong>Oportunidades y riesgos:</strong> Factores clave del mercado.</li>
+                    <li><i class="fas fa-file-pdf"></i> <strong>Informe en PDF y HTML:</strong> Visualizaciones interactivas.</li>
+                </ul>
+                <p style="margin-top: 30px; background-color: #eef4fb; padding: 20px; border-radius: 16px;">
+                    <i class="fas fa-clock"></i> <strong>Tiempo estimado de entrega:</strong> 5-10 minutos después de enviar el formulario.
+                </p>
+            </div>
+            <div class="form-card" id="formulario">
+                <h3 style="color: var(--color-primario); margin-bottom: 24px;">Solicita tu análisis gratuito</h3>
+                <form id="marketAnalysisForm">
+                    <!-- Campos en orden según Sheet -->
+                    <div class="form-group">
+                        <label>Nombre completo <span class="required">*</span></label>
+                        <input type="text" name="nombre" required placeholder="Ej: María González">
+                    </div>
+                    <div class="form-group">
+                        <label>Correo electrónico <span class="required">*</span></label>
+                        <input type="email" name="correo" required placeholder="maria@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Nombre de la empresa / proyecto <span class="required">*</span></label>
+                        <input type="text" name="empresa" required placeholder="Ej: Café Aroma">
+                    </div>
+                    <div class="form-group">
+                        <label>Descripción de la actividad <span class="required">*</span></label>
+                        <textarea name="descripcion" rows="2" required placeholder="Ej: Cafetería de especialidad con productos orgánicos"></textarea>
+                    </div>
+                    
+                    <div class="grid-2" style="gap: 16px;">
+                        <div class="form-group">
+                            <label>Enfoque geográfico <span class="required">*</span></label>
+                            <select name="enfoque" required>
+                                <option value="">Selecciona</option>
+                                <option value="ciudad">Ciudad</option>
+                                <option value="país">País</option>
+                                <option value="región">Región</option>
+                                <option value="global">Global</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Ubicación específica <span class="required">*</span></label>
+                            <input type="text" name="ubicacion" required placeholder="Ej: Quito, Ecuador">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Edad del cliente objetivo (rango) <span class="required">*</span></label>
+                        <input type="text" name="edad_objetivo" required placeholder="Ej: 25-45 años">
+                    </div>
+                    <div class="form-group">
+                        <label>Nicho o sector específico <span class="required">*</span></label>
+                        <input type="text" name="nicho" required placeholder="Ej: Café de origen, repostería vegana...">
+                    </div>
+                    <div class="form-group">
+                        <label>Competidores conocidos (separados por comas) <span class="required">*</span></label>
+                        <input type="text" name="competidores" required placeholder="Ej: Starbucks, Sweet & Coffee">
+                    </div>
+                    <div class="form-group">
+                        <label>Etapa del negocio <span class="required">*</span></label>
+                        <select name="etapa" required>
+                            <option value="">Selecciona</option>
+                            <option value="idea">Idea</option>
+                            <option value="lanzado">Recién lanzado</option>
+                            <option value="operacion">En operación</option>
+                            <option value="expansion">Expansión</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Canal principal de venta <span class="required">*</span></label>
+                        <select name="canal" required>
+                            <option value="">Selecciona</option>
+                            <option value="físico">Físico</option>
+                            <option value="ecommerce">E-commerce</option>
+                            <option value="redes">Redes sociales</option>
+                            <option value="mixto">Mixto</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>¿Qué necesitas saber principalmente? <span class="required">*</span></label>
+                        <textarea name="necesidad" rows="2" required placeholder="Ej: ¿Es rentable abrir una cafetería en mi zona?"></textarea>
+                    </div>
+
+                    <!-- Términos y condiciones desplegables -->
+                    <div class="terms-box">
+                        <div class="terms-header" id="toggleTerms">
+                            <span><i class="fas fa-file-contract" style="margin-right: 8px;"></i> Términos y Condiciones / Política de Privacidad</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="terms-content" id="termsContent">
+                            <p><strong>Última actualización:</strong> 18 de abril de 2026</p>
+                            <p>Al enviar este formulario, usted (el "Usuario") acepta los siguientes términos:</p>
+                            <ol style="padding-left: 20px;">
+                                <li><strong>Finalidad del tratamiento:</strong> Los datos personales recabados (nombre, correo, empresa, etc.) serán utilizados exclusivamente para generar el análisis de mercado solicitado y enviarle el informe resultante. No se utilizarán para otros fines sin su consentimiento explícito.</li>
+                                <li><strong>Base legal:</strong> El tratamiento se basa en su consentimiento expreso al marcar la casilla de aceptación.</li>
+                                <li><strong>Conservación:</strong> Sus datos se almacenarán de forma segura en Google Sheets y podrán ser conservados para mejorar el servicio o para fines estadísticos anonimizados, salvo que solicite su eliminación.</li>
+                                <li><strong>Derechos ARCO:</strong> Puede ejercer sus derechos de acceso, rectificación, cancelación y oposición escribiendo a <a href="mailto:privacidad@analisisdemercadogratis.com">privacidad@analisisdemercadogratis.com</a>.</li>
+                                <li><strong>Menores:</strong> El servicio no está dirigido a menores de 18 años.</li>
+                                <li><strong>Exactitud:</strong> El análisis se genera automáticamente mediante IA y fuentes públicas; no garantizamos la exactitud absoluta y no constituye asesoramiento financiero vinculante.</li>
+                                <li><strong>Modificaciones:</strong> Nos reservamos el derecho de modificar estos términos, notificándolo en esta página.</li>
+                            </ol>
+                            <p>Para más detalles, consulte nuestra Política de Privacidad completa en <a href="#">este enlace</a>.</p>
+                        </div>
+                    </div>
+
+                    <!-- Casilla de aceptación obligatoria -->
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="acepta_terminos" name="acepta_terminos" required>
+                        <label for="acepta_terminos" style="margin-bottom: 0; font-weight: 400;">He leído y acepto los Términos y Condiciones y la Política de Privacidad. <span class="required">*</span></label>
+                    </div>
+
+                    <!-- Casilla de marketing opcional (texto amigable) -->
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="acepta_marketing" name="acepta_marketing" value="sí">
+                        <label for="acepta_marketing" style="margin-bottom: 0; font-weight: 400;">Me gustaría recibir noticias, consejos de mercado y ofertas especiales (opcional).</label>
+                    </div>
+
+                    <button type="submit" class="btn" id="submitBtn">
+                        <i class="fas fa-paper-plane"></i> Solicitar análisis gratuito
+                    </button>
+                    <p style="font-size: 0.8rem; margin-top: 16px; color: var(--color-texto-claro);">Todos los campos marcados con * son obligatorios.</p>
+                </form>
+                <div id="successMessage" class="message-success">
+                    <i class="fas fa-check-circle" style="color: #2e7d32; font-size: 1.5rem;"></i>
+                    <h4 style="margin: 10px 0;">¡Solicitud recibida!</h4>
+                    <p>En unos minutos recibirás tu análisis de mercado en el correo proporcionado. Revisa tu bandeja de entrada (y spam).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Donaciones y redes sociales -->
+    <section style="padding-top: 20px;">
+        <div class="container">
+            <div class="donation-section">
+                <i class="fas fa-heart" style="font-size: 2.5rem; color: var(--color-secundario);"></i>
+                <h3 style="margin: 16px 0 8px;">¿Te ha servido? Apoya este proyecto</h3>
+                <p>Este servicio es y seguirá siendo gratuito. Si deseas contribuir para mantener los servidores y seguir mejorando, puedes hacer una donación en criptomonedas (Binance).</p>
+                <div class="donation-address">
+                    <i class="fab fa-bitcoin"></i> <strong>Binance Pay ID:</strong> 123456789 (simulado)<br>
+                    <span style="font-size: 0.9rem;">O escanea el QR (próximamente)</span>
+                </div>
+                <p style="margin-top: 20px;">¡Gracias por tu apoyo!</p>
+            </div>
+
+            <div style="text-align: center;">
+                <h4 style="color: var(--color-primario);">Sígueme en redes</h4>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p><i class="far fa-envelope"></i> contacto@analisisdemercadogratis.com</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Ecusoluciones · Todos los derechos reservados · Diseñado con <i class="fas fa-heart" style="color: #c62828;"></i> para emprendedores.</p>
+    </div>
+</footer>
+
+<script>
+    (function() {
+        // Desplegar términos
+        const toggleTerms = document.getElementById('toggleTerms');
+        const termsContent = document.getElementById('termsContent');
+        toggleTerms.addEventListener('click', () => {
+            termsContent.classList.toggle('show');
+            const icon = toggleTerms.querySelector('i.fa-chevron-down, i.fa-chevron-up');
+            if (termsContent.classList.contains('show')) {
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            }
+        });
+
+        // Manejo del formulario
+        const form = document.getElementById('marketAnalysisForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const successMsg = document.getElementById('successMessage');
+
+        // Reemplaza con la URL de tu Google Apps Script desplegado
+        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzVOOK9m1rqPArsli5husSxfxzbvJmzmX7WUNI3SzirgujZMD0bGOXeqmPj0SfatYbncg/exec';
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            // Validar aceptación de términos (aunque el required ya lo maneja, doble check)
+            if (!document.getElementById('acepta_terminos').checked) {
+                alert('Debes aceptar los Términos y Condiciones para continuar.');
+                return;
+            }
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Procesando...';
+
+            // Recopilar datos del formulario
+            const formData = new FormData(form);
+            
+            // Campos adicionales automáticos
+            const payload = {
+                ID: 'SOL-' + Date.now() + '-' + Math.floor(Math.random()*1000),
+                fecha: new Date().toISOString(),
+                estado: 'pendiente',
+                // Valores del formulario
+                nombre: formData.get('nombre'),
+                correo: formData.get('correo'),
+                empresa: formData.get('empresa'),
+                descripcion: formData.get('descripcion'),
+                enfoque: formData.get('enfoque'),
+                ubicacion: formData.get('ubicacion'),
+                edad_objetivo: formData.get('edad_objetivo'),
+                nicho: formData.get('nicho'),
+                competidores: formData.get('competidores'),
+                etapa: formData.get('etapa'),
+                canal: formData.get('canal'),
+                necesidad: formData.get('necesidad'),
+                acepta_terminos: document.getElementById('acepta_terminos').checked ? 'sí' : 'no',
+                acepta_marketing: document.getElementById('acepta_marketing').checked ? 'sí' : 'no'
+            };
+
+            try {
+                // Enviar a Google Apps Script (método POST con JSON)
+                const response = await fetch(GOOGLE_SCRIPT_URL, {
+                    method: 'POST',
+                    mode: 'no-cors', // Importante para evitar problemas de CORS con Apps Script
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                // Debido a 'no-cors', no podemos leer la respuesta, asumimos éxito
+                // Mostrar mensaje de éxito
+                form.reset();
+                form.style.display = 'none';
+                successMsg.style.display = 'block';
+                
+                // Scroll suave al mensaje
+                successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Hubo un problema al enviar. Por favor, inténtalo de nuevo más tarde.');
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Solicitar análisis gratuito';
+            }
+        });
+
+        // Configurar los enlaces de redes sociales (el usuario debe poner sus URLs)
+        const socialLinks = document.querySelectorAll('.social-links a');
+        // Ejemplo para que puedas cambiarlos fácilmente:
+        // socialLinks[0].href = "https://facebook.com/tupagina";
+        // socialLinks[1].href = "https://instagram.com/tucuenta";
+        // ...
+    })();
+</script>
+
+</body>
+</html>
